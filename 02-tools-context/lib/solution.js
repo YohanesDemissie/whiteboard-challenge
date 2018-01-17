@@ -1,14 +1,15 @@
-const array = [1, 2, 3, 4, 900];
-var first = arr.sort(function (a, b) { return b - a })[0];//get first highest number
-var second = arr.sort(function (a, b) { return b - a })[1]; //get second highest number
-var highest = [first, second];
+const numbers = module.exports = {};
 
-const array = module.exports = {};
-
-array.check = function (arr) {
+numbers.check = function (arr) {
+    var first = arr.sort(function (a, b) { return b - a })[0];//get first highest number
+    var second = arr.sort(function (a, b) { return b - a })[1]; //get second highest
+    var highest = {
+        first: first,
+        second: second
+    }; 
     for (i = 0; i < arr.length; i++) {
         if (isNaN(arr[i])) {
-            return 'not a number';
+            return null;
         }
     }
     for (i = 0; i < arr.length; i++) {
@@ -31,4 +32,3 @@ array.check = function (arr) {
     }
     return highest;
 }
-arrCheck();
