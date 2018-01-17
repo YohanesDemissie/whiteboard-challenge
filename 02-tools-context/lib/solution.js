@@ -1,9 +1,11 @@
-const arr = [1, 2, 3, 4, 900];
+const array = [1, 2, 3, 4, 900];
 var first = arr.sort(function (a, b) { return b - a })[0];//get first highest number
 var second = arr.sort(function (a, b) { return b - a })[1]; //get second highest number
 var highest = [first, second];
 
-function arrCheck() {
+const array = module.exports = {};
+
+array.check = function (arr) {
     for (i = 0; i < arr.length; i++) {
         if (isNaN(arr[i])) {
             return 'not a number';
