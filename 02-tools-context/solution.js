@@ -16,3 +16,14 @@ function numberCheck() {
 }
 numberCheck();
 
+//testing for empty string
+function emptyString() {
+    for (i = 0; i < arr.length; i++) {
+        console.log(arr[i]);
+        if (arr[i] === '') {
+            return 'contains empty string';
+        }
+    } return height;
+}
+emptyString();
+
