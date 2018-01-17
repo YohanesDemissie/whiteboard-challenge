@@ -27,3 +27,13 @@ function emptyString() {
 }
 emptyString();
 
+//testing for empty array
+function emptyArray() {
+    for (i = 0; i >= arr.length; i++) {
+        if (arr.length === 0) {
+            return 'contains empty array';
+        }
+    } return highest;
+}
+
+
