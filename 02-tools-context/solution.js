@@ -36,4 +36,17 @@ function emptyArray() {
     } return highest;
 }
 
+emptyArray();
+
+//testing for decimals
+function floatingNumber() {
+    for (i = 0; i < arr.length; i++) {
+        if (Number.isInteger(arr[i])) {
+            return highest;
+        } else {
+            return 'not an integer';
+        }
+    }
+}
+floatingNumber();
 
