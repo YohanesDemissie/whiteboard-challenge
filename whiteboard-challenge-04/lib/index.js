@@ -2,11 +2,11 @@
 
 const index = module.exports = {};
 
-index.check = function () {
+// index.check = function () {
   const first = ['ajax', 'bunny', 'berenger', 'carrot'];
   const second = ['apple', 'bunny', 'bundy', 'carrot', 'kiwi', 'red'];
 
-  const intersect = function (arr1, arr2) {
+  index.check = function (arr1, arr2) {
     let duplicate = [];
     for (let i in arr1) {
       if (arr2.includes(arr1[i])) {
@@ -15,5 +15,5 @@ index.check = function () {
     }
     return duplicate;
   };
-}
-intersect(first, second);
+//}
+//index.check(first, second);

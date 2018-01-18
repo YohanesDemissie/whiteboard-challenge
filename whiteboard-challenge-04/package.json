@@ -1,0 +1,22 @@
+{
+  "name": "whiteboard-challenge-04",
+  "version": "1.0.0",
+  "description": "testing for duplicates",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "testing",
+    "testing",
+    "123"
+  ],
+  "author": "Yohanes",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^22.1.3"
+  }
+}

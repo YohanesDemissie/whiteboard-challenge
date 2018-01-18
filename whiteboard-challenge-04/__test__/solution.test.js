@@ -1,8 +1,13 @@
 'use strict';
 
-const array = require('../lib/solution.js');
+const index = require('../lib/index.js');
 
-index.check = function(arr) {
+  describe('Array Module', function () {
+    describe('#check', function () {
+      it('should return all duplicated indecies from each other', function () {
+        expect(index.check(['ajax', 'bunny', 'berenger', 'carrot'],  ['apple', 'bunny', 'bundy', 'carrot', 'kiwi', 'red']))
+      })
+    })
+  })
 
-}
 
