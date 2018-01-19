@@ -2,7 +2,6 @@
 
 const index = module.exports = {};
 
-// index.check = function () {
   const first = ['ajax', 'bunny', 'berenger', 'carrot'];
   const second = ['apple', 'bunny', 'bundy', 'carrot', 'kiwi', 'red'];
 
@@ -15,5 +14,3 @@ const index = module.exports = {};
     }
     return duplicate;
   };
-//}
-//index.check(first, second);
