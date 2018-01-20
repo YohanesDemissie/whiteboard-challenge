@@ -1,28 +1,36 @@
 
-'use strict';
 var train = {
-  "value": 2,
+  "value": 1,
   "next": {
-    "value": 16,
+    "value": 2,
     "next": {
-      "value": 7,
+      "value": 3,
       "next": {
-        "value": 7,
-        "next": null
+        "value": 4,
+        "next": {
+          "value": 5,
+          "next": null
+        }
       }
     }
   }
 }
 
 const traverse = (train) => {
-  let total = 0
-  while (train.next !== null) { //loop until next=null
-    console.log(train.value)  //this displays all values except the first
-    total += train.value      //add total (0) to the train value
-    train = train.next        //let train = "next"
+  let length = 0;
+  let node = train;
+  while (node.next !== null) {
+    length++;
+    node = node.next;
   }
-  console.log(train.value)      //this returns all the key values seperately
-  return (total + train.value) * 0.5;   //return average/middle value
+  node = train;
+  let halfway = ~~(length / 2);
+  while (halfway !== 0) {
+    halfway--;
+    node = node.next;
+  }
+  return node;
 }
-traverse(train);                  //call back function
+
+traverse(train);
 
