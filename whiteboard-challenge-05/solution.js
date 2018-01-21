@@ -1,4 +1,3 @@
-
 var train = {
   "value": 1,
   "next": {
@@ -16,21 +15,21 @@ var train = {
   }
 }
 
-const traverse = (train) => {
+let findMiddle = function (train) {
   let length = 0;
-  let node = train;
-  while (node.next !== null) {
-    length++;
-    node = node.next;
+  let link = train;
+
+  while (link.next !== null) {
+    length++
+    link = link.next;
   }
-  node = train;
-  let halfway = ~~(length / 2);
-  while (halfway !== 0) {
-    halfway--;
-    node = node.next;
+  link = train;
+  let half = ~~(length / 2);
+  while (half !== 0) {
+    half--;
+    link = link.next;
   }
-  return node;
+  return link;
 }
 
-traverse(train);
-
+findMiddle(train);
