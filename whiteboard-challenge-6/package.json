@@ -1,0 +1,23 @@
+{
+  "name": "whiteboard-challenge-6",
+  "version": "0.0.0",
+  "description": "testing testing 1 2 3",
+  "main": "solution.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "lets",
+    "get",
+    "err",
+    "done"
+  ],
+  "author": "Yohanes",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^22.1.4"
+  }
+}
