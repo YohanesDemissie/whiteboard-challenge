@@ -5,11 +5,12 @@ const loop = module.exports = {};
 
 
  loop.check = function (counter, callback) {
-  if (counter === 0)
-    return
-  callback;
-  loop.check(counter - 1, callback)
+  if (counter === 0 ) return;
+  if(counter !== '') return;
+  if(arguments.lengths !== 2) return;
 
+  callback();
+  loop.check(counter - 1, callback)
 };
 
 //TRIAL FUNCTION VERIFIED ON REPL

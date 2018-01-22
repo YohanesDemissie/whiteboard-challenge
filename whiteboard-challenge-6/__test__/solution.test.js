@@ -7,11 +7,11 @@ describe('loop module', function () {
     it('should return a number', function () {
       expect(loop.check(10, () => { console.log(counter)}))
     })
-    it('it should contain numeric data and not stringified numbers', function () {
+    it('it should contain numeric data and not a string', function () {
       expect(loop.check(10, () => { console.log(counter) }))
     })
-    it('should have no strings', function () {
-      expect(loop.check(10, () => {console.log(counter) }))
+    it('should have 2 arguments', function () {
+      expect(loop.check(2, () => {console.log(counter) }))
      })
    })
 })
