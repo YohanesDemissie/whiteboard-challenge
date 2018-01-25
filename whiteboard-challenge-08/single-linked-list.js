@@ -54,10 +54,30 @@ stack.push(listIntercept.head.next.next.next.value);
 stack.push(listIntercept.head.next.next.next.next.value);
 stack;
 
+var cache = {}; //iterator
 var duplicates = [];
-for (var i = 0, len = stack.length - 1; i < len; i++) {
-  if ((duplicates.indexOf(stack[i]) == -1) && (stack.indexOf(stack[i], i + 1) != -1)) {
+
+for (var i = 0, len = stack.length; i < len; i++) {
+  if (cache[stack[i]] === true) {
     duplicates.push(stack[i]);
+  } else {
+    cache[stack[i]] = true;
   }
+
 }
-console.log(duplicates);
+//console.log(duplicates); //displayes [3, 5]
+
+let duplicateValues = new LinkedList()
+duplicateValues.push(duplicates);
+duplicateValues;
+
+
+
+
+
+
+
+
+
+
+
