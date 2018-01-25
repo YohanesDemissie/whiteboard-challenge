@@ -53,3 +53,11 @@ stack.push(listIntercept.head.next.next.value);
 stack.push(listIntercept.head.next.next.next.value);
 stack.push(listIntercept.head.next.next.next.next.value);
 stack;
+
+var duplicates = [];
+for (var i = 0, len = stack.length - 1; i < len; i++) {
+  if ((duplicates.indexOf(stack[i]) == -1) && (stack.indexOf(stack[i], i + 1) != -1)) {
+    duplicates.push(stack[i]);
+  }
+}
+console.log(duplicates);
