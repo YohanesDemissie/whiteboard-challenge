@@ -1,0 +1,24 @@
+{
+  "name": "whiteboard-challenge-07",
+  "version": "1.0.0",
+  "description": "check for circling listed link",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "testing",
+    "testing",
+    "1",
+    "2",
+    "3"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^22.1.4"
+  }
+}
