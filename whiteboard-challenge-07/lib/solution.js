@@ -1,3 +1,5 @@
+crazy = module.exports = {};
+
 const cycle = {
   head: {
     value: 7, next: {
@@ -14,7 +16,7 @@ const cycle = {
 //circle listed link call back below
 // cycle.head.next.next.next.next.next = cycle.head;
 
-let crazy = function (cycle) {
+ crazy.cycle = function () {
   let newCycle = Object.assign({}, cycle);
   for (let itr = newCycle.head; itr !== null; itr = itr.next) {
     console.log(itr)
@@ -26,7 +28,7 @@ let crazy = function (cycle) {
 
 }
 
-crazy(cycle);
+//crazy(cycle);
 
 
 
