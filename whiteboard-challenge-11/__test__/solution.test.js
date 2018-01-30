@@ -1,14 +1,17 @@
 'use strict'
 
-const findNum = require('../lib/solution.js')
+const findNum = require('../lib/solution.js') //require in file name
 
 describe('Array Module', () => {
   describe('#Array', () => {
-    it('should return only numers', () => {
-      expect(findNum.check()).toEqual();
+    it('should only have numbers', () => {
+      expect(findNum.check.array).not.toEqual(NaN)
     })
-    // it('should return less than 100', () => {
-    //   expect(findNum.check.array()).toEqual(5050)
-    // })
+    it('should be a number', () => {
+      expect(findNum.check.n).not.toEqual(NaN)
+    })
+    it('make sure the difference and missing num hold the same value based off whatever value is given to n', () => {
+      expect(findNum.check.difference).toEqual(findNum.check.missingNum)
+    })
   })
 })
