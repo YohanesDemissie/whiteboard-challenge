@@ -1,0 +1,23 @@
+{
+  "name": "whiteboard-challenge-15",
+  "version": "1.0.0",
+  "description": "kary trees and arrays",
+  "main": "solution.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "trees",
+    "ques",
+    "and",
+    "arrays"
+  ],
+  "author": "yohan the dev don",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^22.1.4"
+  }
+}
