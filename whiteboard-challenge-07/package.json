@@ -1,6 +1,7 @@
 {
   "name": "whiteboard-challenge-07",
   "version": "1.0.0",
+<<<<<<< HEAD
   "description": "check for circling listed link",
   "main": "index.js",
   "directories": {
@@ -21,4 +22,20 @@
   "dependencies": {
     "jest": "^22.1.4"
   }
+=======
+  "description": "linked list",
+  "main": "solution.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "jest": "^22.1.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC"
+>>>>>>> a0e60bc057f5c46fdb30c6af2adfb00c0242c08b
 }

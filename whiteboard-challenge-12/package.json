@@ -1,0 +1,20 @@
+{
+  "name": "whiteboard-challenge-12",
+  "version": "1.0.0",
+  "description": "STACKS",
+  "main": "solution.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "Enqueue"
+  ],
+  "author": "Yohanes the Dev Don... in the making",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^22.1.4"
+  }
+}
