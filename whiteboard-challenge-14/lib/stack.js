@@ -1,4 +1,4 @@
-const Node = require('../node')
+const Node = require('./node')
 
 module.exports = class {
   constructor(maxSize = 1048) {
