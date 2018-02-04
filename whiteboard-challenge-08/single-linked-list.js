@@ -4,7 +4,7 @@ function LinkedList() {
 }
 
 LinkedList.prototype.push = function (val) {
-  var node = { //create node with value and nested 'next' key value pairs
+  let node = { //create node with value and nested 'next' key value pairs
     value: val, //value 
     next: null //next == null if no following value
   }
@@ -19,6 +19,7 @@ LinkedList.prototype.push = function (val) {
     current.next = node; //nest the key value pairs within 'next'
   }
 }
+
 
 //create linked list based off constructor
 let list = new LinkedList();
