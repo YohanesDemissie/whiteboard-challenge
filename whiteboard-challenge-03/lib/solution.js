@@ -24,6 +24,6 @@ const traverse = (train) => {
     return total + train.value;   //return total ADDED train values
 }
 traverse(train);                  //call back function
-                        
+
 
 
