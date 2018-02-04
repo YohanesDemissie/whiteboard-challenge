@@ -2,10 +2,10 @@
 
 const solution = module.exports = {};
 
-solution.cirr = function (SLL) {
-  if (!SLL) return null;
+solution.cirr = function (SLL) { //creating our constructor
+  if (!SLL) return null; //error first
 
-  if (!Object.keys(SLL).length) return null;
+  if (!Object.keys(SLL).length) return null;//error first
 
   let SLL2 = Object.assign({}, SLL);
 
