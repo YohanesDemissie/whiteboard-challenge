@@ -1,0 +1,24 @@
+{
+  "name": "whiteboard-challenge-10",
+  "version": "1.0.0",
+  "description": "binary search",
+  "main": "solution.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "testing",
+    "testing",
+    "1",
+    "2",
+    "3"
+  ],
+  "author": "Yohan The DEV Don",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^22.1.4"
+  }
+}
