@@ -3,10 +3,10 @@
 const TwoStackQueue = require('../lib/solution.js')
 
 describe('Queue Module', () => {
-  beforeEach(() => this.queue = new TwoStackQueue());
+  beforeEach(() => this.queue = new TwoStackQueue()); //required in our constructor and new queue
   describe('#Properties', () => {
     it('should validate an object', () => {
-      expect(this.queue).toBeInstanceOf(Object); //PASSED OBJECT
+      expect(this.queue).toBeInstanceOf([Function]); //PASSED as functino
     });
 
     it('should return length of stack', () => {
@@ -22,7 +22,7 @@ describe('Queue Module', () => {
 
     it('should return two stacks', () => {
       let stacks = new TwoStackQueue;
-      expect(stacks).toEqual({ "inbox": [], "outbox": [] }); //PASSED MAXXSIZE
+      expect(stacks).toEqual({ "inbox": [], "outbox": [] }); //testing our 2 queues, PASS
     });
   });
 })

@@ -1,13 +1,14 @@
 'use strict';
 
-const Node = require('../node');
+const Node = require('./node.js');
 //const stack = require('./stack.js')
 
-module.exports = SLL
-class {
+module.exports = class {
   constructor () {
     this.head = null
+    this.length = 0;
   }
+
   insertHead(val) {
     let node = new Node(val)
     node.next = this.head //alway start with head
