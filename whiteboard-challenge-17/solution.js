@@ -9,9 +9,10 @@ solution.arr = function (root) { //creating a function iterating through the bra
   if (!tree.root) return new Error('Invalid input'); //error first method
   let results = []; //our array that will hold all node values
   let output = function (current) { //the meat and potatoes 
-    if (!current.val.children[0]) results.push(current.val);  
+  results.push(current.val.val);  
   };
   tree.breadthFirst(output);
-  console.log(results, 'results')
-  return results;
+  var sum = results.reduce((a, b) => a + b, 0);
+  // console.log(results, 'results')
+  return sum;
 };

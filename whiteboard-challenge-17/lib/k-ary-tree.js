@@ -24,6 +24,7 @@ const k_ary = module.exports = class {
       current.val.children.map(c => queue.enqueue(c));
     }
   }
+
   insert(val, parent) {
     let tn = new TreeNode(val);
     if (!this.root) {

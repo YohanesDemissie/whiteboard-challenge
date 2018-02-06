@@ -12,6 +12,7 @@
   "author": "yohanes",
   "license": "ISC",
   "dependencies": {
-    "jest": "^22.1.4"
+    "jest": "^22.1.4",
+    "jest-cli": "^22.1.4"
   }
 }
