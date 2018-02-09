@@ -1,0 +1,21 @@
+{
+  "name": "whiteboard-challenge-19",
+  "version": "1.0.0",
+  "description": "tree node to array to linked list",
+  "main": "solution.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "data",
+    "structures"
+  ],
+  "author": "Yohan the DEV Don",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^22.2.1"
+  }
+}
