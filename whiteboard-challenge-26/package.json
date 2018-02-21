@@ -1,0 +1,17 @@
+{
+  "name": "whiteboard-challenge-26",
+  "version": "1.0.0",
+  "description": "map filter reduce",
+  "main": "solution.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "arrays"
+  ],
+  "author": "Yohan the DEV Don",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^22.3.0"
+  }
+}
