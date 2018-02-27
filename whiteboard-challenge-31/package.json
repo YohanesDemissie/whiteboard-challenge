@@ -1,0 +1,21 @@
+{
+  "name": "whiteboard-challenge-31",
+  "version": "1.0.0",
+  "description": "find the intersection of 2 arrays",
+  "main": "solution.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "array",
+    "intersection"
+  ],
+  "author": "Yohan the Dev Don",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^22.4.2"
+  }
+}
