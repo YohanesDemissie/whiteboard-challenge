@@ -8,6 +8,8 @@ ex: fib(4) === 3
 
 #RESOURCES
 #ITERATIVE SOLUTIONS
+https://stackoverflow.com/questions/7944239/generating-fibonacci-sequence
+
 var fib = [0, 1];
 for (var i = fib.length; i < 10; i++) {
   fib[i] = fib[i - 2] + fib[i - 1];
