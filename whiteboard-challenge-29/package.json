@@ -1,0 +1,20 @@
+{
+  "name": "whiteboard-challenge-29",
+  "version": "1.0.0",
+  "description": "sorting anagrams",
+  "main": "solution.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "testing"
+  ],
+  "author": "Yohan the Dev Don",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^22.4.3"
+  }
+}
