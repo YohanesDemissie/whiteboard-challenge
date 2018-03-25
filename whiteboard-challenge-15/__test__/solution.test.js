@@ -1,14 +1,13 @@
 'use strict';
 
 const solution = require('../solution');
-const k_ary = require('../lib/kary-tree');
+const k_ary = require('../lib/k-ary-tree');
 
 describe('Solution Module', () => {
 
   beforeAll(() => {
     this.oneNode = new k_ary().insert(1, 1);
-    this.tree = new k_ary().insert(1, 1).insert(2, 1).insert(3, 1).insert(4, 1);
-    this.emptyNode = new k_ary();
+    // this.emptyNode = new k_ary();
   });
 
   describe('arr', () => {

@@ -1,0 +1,17 @@
+{
+  "name": "whiteboard-challenge-29",
+  "version": "1.0.0",
+  "description": "",
+  "main": "solution.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Yohan the Dev Don",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^22.4.2"
+  }
+}
