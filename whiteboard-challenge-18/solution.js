@@ -8,6 +8,7 @@ solution.arr = function (root) { //creating a function iterating through the bra
   tree = root;
   if (!tree.root) return new Error('Invalid input'); //error first method
   let results = []; //our array that will hold all node values
+
   let output = function (current) { //the meat and potatoes
   results.push(current.val.children.length);
 
